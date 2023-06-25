@@ -1,0 +1,116 @@
+/* styles.css */
+h1 {
+    color: bl;
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+
+h3 {
+    font-size: 25px;
+    color: red;
+}
+h2{
+    font-size: 25px;
+}
+  
+  p.my-paragraph {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: justify;
+
+  }
+  ul {
+    list-style-type: square;
+  }
+  ol {
+    list-style-type: decimal;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  td {
+    padding: 10px;
+    margin: 5px;
+  }
+
+ table {
+  background-color: white;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+tr:nth-child(even) {
+    background-color: white;
+  }
+  th {
+    text-align: center;
+  }
+  table {
+    table-layout: fixed;
+    width: 50%;
+  }
+  body {
+    background-color: lightblue;
+  }
+  .my-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .my-link:hover {
+    text-decoration: underline;
+  }
+  
+  .my-link:visited {
+    color: #663399;
+  }
+  
+  .contact-form {
+    width: 100px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 70%;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: green;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+
+  
